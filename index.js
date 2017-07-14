@@ -4,7 +4,7 @@ module.exports = {
     "tslint-config-prettier"
   ],
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "../codelyzer"
   ],
   "rules": {
     "callable-types": true,
@@ -56,17 +56,16 @@ module.exports = {
     "variable-name": false,
     "ordered-imports": false,
     "interface-name": [true, "never-prefix"],
-    "directive-selector": [true, "attribute", "ssi", "camelCase"],
-    "component-selector": [true, "element", "ssi", "kebab-case"],
+    "directive-selector": [true, "attribute", "mwl", "camelCase"],
+    "component-selector": [true, "element", "mwl", "kebab-case"],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
     "no-attribute-parameter-decorator": true,
     "no-output-rename": true,
-    "no-forward-ref": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "pipe-naming": [true, "camelCase", "ssi"],
+    "pipe-naming": [true, "camelCase", "mwl"],
     "component-class-suffix": true,
     "directive-class-suffix": true,
     "templates-use-public": true,
