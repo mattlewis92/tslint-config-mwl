@@ -71,6 +71,11 @@ module.exports = {
     "templates-use-public": true,
     "no-access-missing-member": true,
     "invoke-injectable": true,
-    "template-to-ng-template": true
+    "template-to-ng-template": true,
+    "ban": [
+      true,
+      ["it", "only"],
+      ["describe", "only"]
+    ]
   }
 };
