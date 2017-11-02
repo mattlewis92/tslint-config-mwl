@@ -68,10 +68,6 @@ module.exports = {
     "pipe-naming": [true, "camelCase", "mwl"],
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "templates-use-public": true,
-    "no-access-missing-member": true,
-    "invoke-injectable": true,
-    "template-to-ng-template": true,
     "ban": [
       true,
       ["it", "only"],
