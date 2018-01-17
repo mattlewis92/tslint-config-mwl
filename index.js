@@ -51,7 +51,6 @@ module.exports = {
       true,
       "allow-null-check"
     ],
-    "typeof-compare": true,
     "unified-signatures": true,
     "variable-name": false,
     "ordered-imports": false,
