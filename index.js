@@ -1,10 +1,10 @@
 module.exports = {
   "extends": [
     "tslint:recommended",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "rxjs-tslint-rules"
   ],
   "rulesDirectory": [
-    "../rxjs-tslint-rules",
     "../codelyzer"
   ],
   "rules": {
@@ -74,17 +74,7 @@ module.exports = {
       ["describe", "only"]
     ],
     "rxjs-no-add": true,
-    "rxjs-no-create": true,
-    "rxjs-no-do": true,
     "rxjs-no-operator": true,
-    "rxjs-no-patched": {
-      "options": [{
-        "allowObservables": false,
-        "allowOperators": false
-      }],
-      "severity": "error"
-    },
-    "rxjs-no-subject-unsubscribe": true,
     "rxjs-no-wholesale": true
   }
 };
