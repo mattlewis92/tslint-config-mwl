@@ -4,6 +4,7 @@ module.exports = {
     "tslint-config-prettier"
   ],
   "rulesDirectory": [
+    "rxjs-tslint-rules",
     "../codelyzer"
   ],
   "rules": {
@@ -71,6 +72,19 @@ module.exports = {
       true,
       ["it", "only"],
       ["describe", "only"]
-    ]
+    ],
+    "rxjs-no-add": true,
+    "rxjs-no-create": true,
+    "rxjs-no-do": true,
+    "rxjs-no-operator": true,
+    "rxjs-no-patched": {
+      "options": [{
+        "allowObservables": false,
+        "allowOperators": false
+      }],
+      "severity": "error"
+    },
+    "rxjs-no-subject-unsubscribe": true,
+    "rxjs-no-wholesale": true
   }
 };
