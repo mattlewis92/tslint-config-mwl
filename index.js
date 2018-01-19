@@ -4,7 +4,7 @@ module.exports = {
     "tslint-config-prettier"
   ],
   "rulesDirectory": [
-    "rxjs-tslint-rules",
+    "../rxjs-tslint-rules",
     "../codelyzer"
   ],
   "rules": {
