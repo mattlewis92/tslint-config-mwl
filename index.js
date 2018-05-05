@@ -12,7 +12,6 @@ module.exports = {
     "class-name": true,
     "curly": true,
     "forin": true,
-    "import-blacklist": [true, "rxjs"],
     "interface-over-type-literal": true,
     "label-position": true,
     "member-access": false,
@@ -75,6 +74,6 @@ module.exports = {
     ],
     "rxjs-no-add": true,
     "rxjs-no-operator": true,
-    "rxjs-no-wholesale": true
+    "rxjs-no-internal": true
   }
 };
