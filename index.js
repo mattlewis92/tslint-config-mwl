@@ -72,8 +72,6 @@ module.exports = {
       ["it", "only"],
       ["describe", "only"]
     ],
-    "rxjs-no-add": true,
-    "rxjs-no-operator": true,
     "rxjs-no-internal": true
   }
 };
