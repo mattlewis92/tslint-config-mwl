@@ -71,7 +71,6 @@
     "no-output-rename": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "pipe-naming": [true, "camelCase", "mwl"],
     "component-class-suffix": true,
     "directive-class-suffix": true,
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
