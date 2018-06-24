@@ -55,6 +55,13 @@
     "variable-name": false,
     "ordered-imports": false,
     "interface-name": [true, "never-prefix"],
+    "ban": [
+      true,
+      ["it", "only"],
+      ["describe", "only"]
+    ],
+    "rxjs-no-internal": true,
+
     "directive-selector": [true, "attribute", "mwl", "camelCase"],
     "component-selector": [true, "element", "mwl", "kebab-case"],
     "use-input-property-decorator": true,
@@ -67,11 +74,24 @@
     "pipe-naming": [true, "camelCase", "mwl"],
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "ban": [
-      true,
-      ["it", "only"],
-      ["describe", "only"]
-    ],
-    "rxjs-no-internal": true
+    "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
+    "banana-in-box": true,
+    "templates-no-negated-async": true,
+    "max-inline-declarations": true,
+    "no-life-cycle-call": true,
+    "no-conflicting-life-cycle-hooks": true,
+    "enforce-component-selector": true,
+    "no-queries-parameter": true,
+    "use-view-encapsulation": true,
+    "no-output-named-after-standard-event": true,
+    "no-input-rename": true,
+    "no-output-on-prefix": true,
+    "no-unused-css": true,
+    "contextual-life-cycle": true,
+    "trackBy-function": true,
+    "pipe-impure": true,
+    "i18n": [true, "check-id", "check-text"],
+    "template-cyclomatic-complexity": [true, 5],
+    "template-conditional-complexity": [true, 4]
   }
 }
