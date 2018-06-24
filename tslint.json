@@ -89,9 +89,6 @@
     "no-unused-css": true,
     "contextual-life-cycle": true,
     "trackBy-function": true,
-    "pipe-impure": true,
-    "i18n": [true, "check-id", "check-text"],
-    "template-cyclomatic-complexity": [true, 5],
-    "template-conditional-complexity": [true, 4]
+    "pipe-impure": true
   }
 }
