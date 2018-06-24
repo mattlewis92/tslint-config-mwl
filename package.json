@@ -2,7 +2,7 @@
   "name": "tslint-config-mwl",
   "version": "0.4.1",
   "description": "The TSLint config that I use across all projects. Should be used in conjunction with angular + prettier",
-  "main": "index.js",
+  "main": "./tslint.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mattlewis92/tslint-config-mwl.git"
@@ -23,10 +23,8 @@
   },
   "homepage": "https://github.com/mattlewis92/tslint-config-mwl#readme",
   "dependencies": {
-    "rxjs-tslint-rules": "^4.1.1",
-    "tslint-config-prettier": "^1.1.0"
-  },
-  "peerDependencies": {
-    "codelyzer": ">=3.0.0 <5.0.0"
+    "codelyzer": "^4.4.1",
+    "rxjs-tslint-rules": "^4.4.2",
+    "tslint-config-prettier": "^1.13.0"
   }
 }
