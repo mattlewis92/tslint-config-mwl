@@ -88,6 +88,7 @@
     "no-unused-css": true,
     "contextual-life-cycle": true,
     "trackBy-function": true,
-    "pipe-impure": true
+    "pipe-impure": true,
+    "no-template-call-expression": true
   }
 }
