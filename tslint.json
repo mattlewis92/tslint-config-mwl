@@ -88,6 +88,7 @@
     "contextual-lifecycle": true,
     "template-use-track-by-function": true,
     "no-pipe-impure": true,
-    "template-no-call-expression": true
+    "template-no-call-expression": true,
+    "relative-url-prefix": true
   }
 }
