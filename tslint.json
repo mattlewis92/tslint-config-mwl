@@ -1,8 +1,7 @@
 {
   "extends": [
     "tslint:recommended",
-    "tslint-config-prettier",
-    "rxjs-tslint-rules"
+    "tslint-config-prettier"
   ],
   "rulesDirectory": [
     "codelyzer"
@@ -59,7 +58,6 @@
       ["it", "only"],
       ["describe", "only"]
     ],
-    "rxjs-no-internal": true,
 
     "directive-selector": [true, "attribute", "mwl", "camelCase"],
     "component-selector": [true, "element", "mwl", "kebab-case"],

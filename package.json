@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/mattlewis92/tslint-config-mwl#readme",
   "dependencies": {
-    "codelyzer": "^5.0.0",
-    "rxjs-tslint-rules": "^4.22.1",
     "tslint-config-prettier": "^1.18.0"
+  },
+  "peerDependencies": {
+    "codelyzer": "^5.0.0"
   }
 }
