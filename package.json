@@ -26,6 +26,6 @@
     "tslint-config-prettier": "^1.18.0"
   },
   "peerDependencies": {
-    "codelyzer": "^5.0.0"
+    "codelyzer": "^5.0.0 || ^6.0.0"
   }
 }
